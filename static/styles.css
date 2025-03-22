@@ -3,6 +3,16 @@
 	gap: 1.5rem;
 	grid-template-columns: 
 		repeat(4, 1fr);
+
+	@media (max-width: 780px) {
+		grid-template-columns:
+			repeat(3, 1fr);
+	}
+
+	@media (max-width: 576px) {
+		grid-template-columns:
+			repeat(2, 1fr);
+	}
 		
 	text-align: center;
 }
@@ -16,6 +26,11 @@
 	gap: 1.5rem;
 	grid-template-columns: 
 		repeat(2, 1fr);
+
+	@media (max-width: 990px) {
+		grid-template-columns: 
+			repeat(1, 1fr);
+	}
 
 	align-items:center;
 }
@@ -37,4 +52,13 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.navbar-brand {
+	max-height: 80px;
+	width: auto;
+}
+
+#profile-photo {
+	height: 250px;
 }
