@@ -13,7 +13,10 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		<link href="./static/styles.css" rel="stylesheet">
 
-		<title></title>
+		<meta property="description" content="Portfolio for a software developer and programmer looking for work in the tech field. Has experience in Python, Sql, Flask, Html/Css, Git and more">
+
+		<title>Justin | Developer</title>
+		<link rel="icon" type="image/png" href="./static/icon.png">
 
 	</head>
 
@@ -22,10 +25,10 @@
 		<header>
 			<nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
 				<div class="container-fluid">
+					<img src="./static/logoV2.png" alt="Logo with the initials J and T standing for justin tamez, and angular brackets surrounding the initials" class="navbar-brand">
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<span class="navbar-brand h1">Justin Tamez</span>
 					<div class="collapse navbar-collapse" id="navigation">
 						<ul class="navbar-nav nav-pills">
 							<li class="nav-item"><a href ="#home" class="nav-link active" aria-current="true">Home</a></li>
@@ -45,20 +48,21 @@
 					<div class="container-lg">
 						<div class="row py-5 text-center">
 							<div class="col-lg-4">
-								<img src="./static/Leia_and_me_circle.png" class="float-lg-end" style="height: 250px;">
+								<img src="./static/Leia_and_me_circle.png" id="profile-photo" alt="Picture of justin kneeling next to his white australian-labradoodle named leia" class="float-lg-end">
 							</div>
 							<div class="col align-middle">
 								<h1 class="h1">
 									Hi, I'm Justin, an enthusiastic programmer who loves building software and tinkering with technology.
-									<span class="fs-5 badge bg-primary rounded-pill"><!--TODO round button-->
+									<span class="fs-5 badge bg-primary rounded-pill">
 										<i class="bi bi-circle-fill"></i>
 										Open to work
 									</span>
 								</h1>
 								<div class="my-4">
-									<a class="mx-3" href="TODO"><button class="btn btn-primary">Download Resume</button></a>
-									<a class="mx-3 fs-3" href="https://github.com/Coding920">Github<i class="bi bi-github"></i></a>
-									<a class="mx-3 fs-3" href="https://www.linkedin.com/in/justin-tamez">LinkedIn<i class="bi bi-linkedin"></i></a>
+									<!-- TODO Fix with S3 -->
+									<a class="mx-3" href="https://www.linkedin.com/in/justin-tamez" ref="noopener norefferer" target="_blank"><button type="button" class="btn btn-primary">Download Resume</button></a>
+									<a class="mx-3 fs-3" href="https://github.com/Coding920" ref="noopener norefferer" target="_blank">Github<i class="bi bi-github"></i></a>
+									<a class="mx-3 fs-3" href="https://www.linkedin.com/in/justin-tamez" ref="noopener norefferer" target="_blank">LinkedIn<i class="bi bi-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -69,51 +73,51 @@
 							<h2 class="text-center mb-4"><em>My skills</em></h2>
 							<div id="skills">
 								<div class="card skill">
-									<img src="./static/python-logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/python-logo.png" alt="The Python programming language logo, two blocky pythons" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Python</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/flask_logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/flask_logo.png" alt="The flask framework logo, an old style flask" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Flask</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/Sql_logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/Sql_logo.png" alt="The sql logo, three circles on top of each other, stacked in a 3d like fashion." class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">SQL</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/C-lang.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/C-lang.png" alt="The C language logo, a white letter C in the middle of blue hexagon" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">C (language)</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/Html-logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/Html-logo.png" alt="The HTML logo, an orange shield with a white H in the middle" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">HTML</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/css_logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/css_logo.png" alt="The CSS logo, a blue shield with a white squiggle in the middle" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">CSS</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/javascript-logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/javascript-logo.png" alt="The javascript logo, a yellow square background with black letters 'JS' in the bottom right hand corner" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Javascript</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/bootstrap-logo.svg" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/bootstrap-logo.svg" alt="The bootstrap logo, a purple box with rounded points on the left and right, and a white B in the middle" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Bootstrap</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/bash-logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/bash-logo.png" alt="The bourne again shell, or bash shell logo. A white 3d box with a dollar sign terminal on the front" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Bash</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/git_logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/git_logo.png" alt="The git logo, a orange box, rotated 45 degrees. It has a white graph tree extending downwards" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Git</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/linux-logo.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/linux-logo.png" alt="The linux logo, a cartoon penguin drawn semi 3d" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Linux</h2>
 								</div>
 								<div class="card skill">
-									<img src="./static/terminal.png" class="image-fluid m-auto w-25 card-img-top">
+									<img src="./static/terminal.png" alt="A flat black terminal with a white arrow for a prompt, this is in place of the windows logo" class="image-fluid m-auto w-25 card-img-top">
 									<h2 class="card-title">Windows</h2>
 								</div>
 							</div>
@@ -134,7 +138,7 @@
 						<div class="project-grid mt-4">
 							<div class="project">
 								<div class="card">
-									<img src="./static/Python_phonebook.png" class="card-img-top" alt="TODO">
+									<img src="./static/Python_phonebook.png" class="card-img-top" alt="Picture of a retro looking user interface for a phonebook style contact program made in Python.">
 									<div class="card-body">
 										<h5 class="card-title">
 											Python Phonebook
@@ -143,6 +147,22 @@
 										A phonebook/contact program made for the desktop. It was made with python, Sqlite3, and Python's Tk Interface for the front end.
 										Made with settings for background, font, etc. Tk isn't the easiest front end language, it has less support and tools then a traditional front end
 										in Html/Css. Nonetheless, it was a very fun project in making a desktop UI and perserverance.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Card Start -->
+							<div class="project">
+								<div class="card">
+									<img src="./static/Finance_app.png" class="card-img-top" alt="Picture of a web application displaying a portfolio of stocks with a minimal user interface.">
+									<h5 class="card-title">
+										Mock Finance Flask Web-app
+									</h5>
+									<div class="card-body">
+										<p class="card-text">
+										A Flask web app made in CS50 with minimal source code setup. Implemented registering of accounts and logging out,
+										buying and selling of stocks, stock history, and home page/current portfolio of stocks. Has all the neccessary logic and checks
+										for user input. I also interfaces with an API from Harvard.
 										</p>
 									</div>
 								</div>
@@ -168,23 +188,7 @@
 							<!-- Card Start -->
 							<div class="project">
 								<div class="card">
-									<img src="./static/Finance_app.png" class="card-img-top" alt="TODO">
-									<h5 class="card-title">
-										Mock Finance Flask Web-app
-									</h5>
-									<div class="card-body">
-										<p class="card-text">
-										A Flask web app made in CS50 with minimal source code setup. Implemented registering of accounts and logging out,
-										buying and selling of stocks, stock history, and home page/current portfolio of stocks. Has all the neccessary logic and checks
-										for user input. I also interfaces with an API from Harvard.
-										</p>
-									</div>
-								</div>
-							</div>
-							<!-- Card Start -->
-							<div class="project">
-								<div class="card">
-									<img src="./static/credit.png" class="card-img-top" alt="TODO">
+									<img src="./static/credit.png" class="card-img-top" alt="picture of source code from a program in the C lanuage. It's inside of a text editor">
 									<h5 class="card-title">
 										Command Line Credit Card Verifier
 									</h5>
@@ -210,7 +214,7 @@
 							About Me
 						</h2>
 
-						<p>Hi, I'm Justin! I am a programmer interested in making a career in tech. I specialize in code on the backend with my most utilized language being Python. I also have experience with the Flask framework.
+						<p>Hi, I'm Justin! I am a programmer excited to make a career in tech. I can do both front end and back end with my most utilized language being Python. I also have experience with the Flask framework.
 						I have experience with HTML and CSS on the frontend, utilizing libaries like Bootstrap to make development quicker and more productive.
 						I have most of my experience in databases with sql languages. Mainly, Sqlite3 since it comes packages as a module in Python.</p>
 
@@ -224,11 +228,12 @@
 							<div class="col"><h5>Email: Justin.tamez04@gmail.com</h5></div>
 						</div>
 						<div class="row my-2">
-							<div class="col"><h5>LinkedIn: <a href="TODO">www.linkedin.com/in/justin-tamez</a></h5></div>
-							<div class="col"><h5>Github: <a href="TODO">https://github.com/Coding920</a></h5></div>
+							<div class="col"><h5>LinkedIn: <a href="https://www.linkedin.com/in/justin-tamez" ref="noopener norefferer" target="_blank">www.linkedin.com/in/justin-tamez</a></h5></div>
+							<div class="col"><h5>Github: <a href="https://github.com/Coding920" ref="noopener norefferer" target="_blank">https://github.com/Coding920</a></h5></div>
 						</div>
 						<div class="row my-2">
-							<div class="col"><h5>Download resume <a href="TODO"><em>HERE</em></a></h5></div>
+							<!-- Fix with s3 TODO -->
+							<div class="col"><h5>Download resume <a href="https://www.linkedin.com/in/justin-tamez" ref="noopener norefferer" target="_blank"><em>HERE</em></a></h5></div>
 						</div>
 					</div>
 
